@@ -23,3 +23,6 @@ The model that shows the most promising result had three hidden layers, adding m
 Although multiple attempts were made, the target of 75% predictive accuracy is not achieved. 
 
 ## Summary
+The improved model's accuracy ended up being 71% which is only slightly higher than the initial model.
+
+One of the ways to increase the accuracy of the model is of course by having more solid features and data. Using the Random Forest classifiers could also be an option in this case since a random forest model with a sufficient number of estimators and tree depth should be able to perform at a similar capacity to most deep learning models. Also, the random forest model has the advantage of being faster than neural networks and is able to train on large datasets.
